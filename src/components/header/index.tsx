@@ -24,14 +24,7 @@ const ParticleBg = () => (
         },
         
     },
-    "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": false,
-                "mode": "repulse"
-            }
-        }
-    }
+   
     }}
     
   />

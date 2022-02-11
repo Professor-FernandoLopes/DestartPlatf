@@ -11,8 +11,8 @@ const ParticleBg = () => (
         },
         particles: {
           number: {
-            value: 200,
-            limit: 300,
+            value: 30,
+            limit: 80,
             density: {
               enable: true,
               value_area: 50
@@ -21,18 +21,7 @@ const ParticleBg = () => (
           color: {
             value: "#ffffff"
           },
-          shape: {
-            type: "circle",
-            stroke: {
-              width: 0,
-              color: "#000000"
-            },
-            polygon: {
-              nb_sides: 5
-            },
-            
-            
-          },
+          
           opacity: {
             value: 0.5,
             random: true,
@@ -46,12 +35,7 @@ const ParticleBg = () => (
           size: {
             value: 1,
             random: true,
-            anim: {
-              enable: true,
-              speed: 10,
-              size_min: 10,
-              sync: false
-            }
+            
           },
           line_linked: {
             enable: true,
@@ -75,49 +59,9 @@ const ParticleBg = () => (
             }
           }
         },
-        interactivity: {
-          detect_on: "canvas",
-          events: {
-            onHover: {
-              enable: true,
-              mode: "bubble",
-              parallax: {
-                enable: false,
-                force: 60,
-                smooth: 10
-              }
-            },
-            onClick: {
-              enable: true,
-              mode: "push"
-            },
-            resize: true
-          },
-          modes: {
-            grab: {
-              distance: 400,
-              lineLinked: {
-                opacity: 1
-              }
-            },
-            
-            repulse: {
-              distance: 200
-            },
-            push: {
-              particles_nb: 4
-            },
-            remove: {
-              particles_nb: 2
-            }
-          }
-        },
-        backgroundMask: {
-          enable: false,
-          
-        },
-        retina_detect: true,
-        fps_limit: 60,
+        
+       
+        
         
       }}
     />
