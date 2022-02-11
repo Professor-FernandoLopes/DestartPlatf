@@ -6,23 +6,35 @@ import Particles from 'react-tsparticles';
 
 const ParticleBg = () => (
   <Particles
-        params={{
-          fpsLimit: 60,
-          particles: {
-            color: {
-              value: "#000"
-            },
-            links: {
-              enable: true,
-              color: "#000",
-              distance: 200
-            },
-            move: {
-              enable: true
+    params={{
+      "particles": {
+        "number": {
+            "value": 20
+        },
+        "size": {
+            "value": 3
+        },
+        links: {
+          enable: true,
+          color: "#000",
+          distance: 100
+        },
+        move: {
+          enable: true
+        },
+        
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": false,
+                "mode": "repulse"
             }
-          }
-        }}
-      />
+        }
+    }
+    }}
+    
+  />
 );
 
 const headerStyle = css`
