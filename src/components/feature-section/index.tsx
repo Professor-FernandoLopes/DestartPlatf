@@ -18,7 +18,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Democracia participativa</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Somos a única plataforma do mundo onde os investidores tem o poder de decidir como serão aplicados os recursos captados
+              Somos a única plataforma do mundo onde os investidores têm o poder de decidir como serão aplicados os recursos captados
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
@@ -63,7 +63,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Integração</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              A Web3 significa a integração entre produtos físicos e digitais, entre o comércio e um novo sistema financeiro de natureza descentralizada. Por isso, não oferecemos apenas a primeira plataforma de crowdfunding do mundo, mas uma exchange as a service, capaz de interagir com aos maiores pools de liquidez existentes, como Uniswap, PancakeSwap, Compound Finance, dentre outros. Caso precise, temos ainda toda a estrutura para tokenizar seus produtos, visto que contamos com um qualificado corpo de especialistas nas áreas técnicas e jurídicas.
+              A Web3 significa a integração entre produtos físicos e digitais, entre o comércio e um novo sistema financeiro de natureza descentralizada. Por isso, não oferecemos apenas a primeira plataforma de crowdfunding do mundo, mas uma exchange as a service, capaz de interagir com os maiores pools de liquidez existentes, como Uniswap, PancakeSwap, Compound Finance, dentre outros. Caso precise, temos ainda toda a estrutura para tokenizar seus produtos, visto que contamos com um qualificado corpo de especialistas nas áreas técnicas e jurídicas.
             
             </p>
           </div>
